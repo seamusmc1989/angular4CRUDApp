@@ -17,6 +17,18 @@ npm install --save-dev mkdirp
 npm install --save-dev copyfiles
 
 To bundle spring boot and the angular2 app together
-The project is built by running: npm run build
+The project is built by running the following command in the src/main/frontend folder: 
+npm run build
 
+To run the app.
+Start the spring boot app by running in IDE or command:
+mvn spring-boot:run
+
+To view the inmem db once the spring boot Server is started go to:
+http://localhost:8080/h2-console/
+
+Connection string for the inmem db
+JDBC URL: jdbc:h2:mem:tasks
+username: sa
+No password required
 
