@@ -1,4 +1,4 @@
-# angularBootBasicDemo
+# angular4CRUDApp
 Angular4CRUDApp boilerplate code for bootstrap, in-mem db and CRUD n-tier architecture 
 It has logic for commandlineRunner, get, save and update save/repository logic.
 
