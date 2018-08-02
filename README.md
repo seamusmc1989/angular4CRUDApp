@@ -1,5 +1,6 @@
 # angularBootBasicDemo
-angular4SpringBootBasic angular4 spring boot basic example with in-mem db, commandLineRunner, get, save and update example logic
+Angular4CRUDApp boilerplate code for bootstrap, in-mem db and CRUD n-tier architecture 
+It has logic for commandlineRunner, get, save and update save/repository logic.
 
 To build this project.
 You must have maven configure and angular cli, rimraf, mkdirp and copyfiles installed
@@ -32,3 +33,14 @@ JDBC URL: jdbc:h2:mem:tasks
 username: sa
 No password required
 
+# The project has the following code features
+
+CommandLineRunner in the main application class to initialise some dummy data in the database
+
+Event Emitter in the tasks-add.component.ts and the task.service.ts
+
+Conditional ngClass logic for display based on boolean
+
+Parent and child components in the task.component.html
+
+CrudRepository implementation in TaskRepository
